@@ -12,4 +12,4 @@ if __name__ == "__main__":
     parser.add_argument("--url", help="URL to the datafile", type=str, required=True)
     args = parser.parse_args()
     main(args.url)
-    
+
